@@ -1,3 +1,43 @@
 .App {
   text-align: center;
 }
+
+:root {
+
+  --color-darkblue4: rgb(24, 78, 119);
+  --color-darkblue3: rgb(30, 96, 145);
+  --color-darkblue2: rgb(26, 117, 159);
+  --color-darkblue1: rgb(22, 138, 173);
+  --color-seagreen: rgb(52, 160, 164);
+  --color-green3: rgb(82, 182, 154);
+  --color-green2: rgb(118, 200, 147);
+  --color-green1: rgb(153, 217, 140);
+  --color-dewyellow2: rgb(181, 228, 140);
+  --color-dewyellow: rgb(217, 237, 146);
+
+  
+  
+  --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  --box-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+
+  --spacing-0: 4px;
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 36px;
+  --spacing-5: 64px;
+
+  --radius: 4px;
+  --radius-2: 8px;
+}
+
+html, 
+body {
+  background: var(--color-darkblue2);
+}
+
+p {
+  margin: 0;
+}
